@@ -1,12 +1,18 @@
-# :video_camera: Floating Cam :boat:
-A simple class to quickly make your camera float arround the screen according to your mouse
+# 📹 Floating Cam 🚤
+A classic parallax movement handler for your ```THREE.Camera``` according to your mouse position
 
 ## Usage
 ```
-floatingCam = new FloatingCame(THREE.camera)
-document.addEventListener('mousemove', floatingCamera.moveCam)
+import CamParallax from "PATH/CamParallax"
 
-function update(){
-    floatingCam.update()
+CamParallax.init(THREE.Camera)
+
+renderLoop(){
+    CamParallax.update()
 }
 ```
+
+## Doc
+### CamParallax.isActive : Boolean
+Enables/Disables the CamParallax
+```Default : true```
