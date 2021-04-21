@@ -1,4 +1,4 @@
-# 📹 Floating Cam 🚤
+# 📹 Three CamParallax 🚤
 A classic parallax movement handler for your ```THREE.Camera``` according to your mouse position
 
 ## Usage
